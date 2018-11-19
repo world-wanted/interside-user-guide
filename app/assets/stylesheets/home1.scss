@@ -1,0 +1,101 @@
+.user-guide {
+  color: #707070;
+
+  .row {
+    min-height: 30px;
+  }
+
+  .logo-img {
+    margin-top: 8.9vh;
+    width:505px;
+  }
+
+  .title {
+    margin-top: 6.46vh;
+    font-size: 70px;
+  }
+
+  .type-selector {
+    margin-top: 5.74vh;
+
+    .desktop-tablet-img {
+      width: 407px;
+    }
+
+    .mobile-img {
+      width: 96px; 
+    }
+
+    .type-description {
+      margin-top: 1.48vh;
+      font-size: 35px;
+    }
+  }
+
+  .next-btn {
+    margin-top: 10.46vh;
+    background-color: #f95a5f;
+    color: #fff;
+    width: 10.93vw;
+    height: 6.3vh;
+  }
+
+}
+
+
+.custom-radio-container {
+    display: block;
+    width: 100%;
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size: 22px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.custom-radio-container input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+}
+
+.checkmark {
+    position: absolute;
+    top: 0;
+    left: calc(50% - 1.3vw);
+    height: 2.6vw;
+    width: 2.6vw;
+    background-color: #eee;
+    border-radius: 50%;
+}
+
+.custom-radio-container:hover input ~ .checkmark {
+    background-color: #ccc;
+}
+
+.custom-radio-container input:checked ~ .checkmark {
+    background-color: #f95a5f;
+}
+
+.checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+.custom-radio-container input:checked ~ .checkmark:after {
+    display: block;
+}
+
+.custom-radio-container .checkmark:after {
+  top: 0.9vw;
+  left: 0.9vw;
+  width: 0.8vw;
+  height: 0.8vw;
+  border-radius: 50%;
+  background: white;
+}

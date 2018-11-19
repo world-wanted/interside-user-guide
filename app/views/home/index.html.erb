@@ -1,0 +1,315 @@
+<div class="user-guide">
+  <div class="row text-center home-screen">
+    <div class="col-12">
+      <%= image_tag "logo.svg", class: "center logo-img goto-home" %> 
+    </div>
+    <div class="col-12 title">
+      User Guide
+    </div>    
+    <div class="col-md-4 offset-md-4 col-sm-10 offset-sm-1">
+      <div class="row">
+        <div class="col-12 type-selector">
+          <div class="row">
+            <div class="offset-1 col-7">
+              <%= image_tag "desktop_tablet.png", class: "desktop-tablet-img" %>
+            </div>
+            <div class="col-4">
+              <%= image_tag "mobile.png", class: "mobile-img" %>
+            </div>
+          </div>
+          <div class="row type-description">
+            <div class="offset-1 col-7">
+              Desktop and Tablet
+            </div>
+            <div class="col-4">
+              Mobile
+            </div>
+          </div>
+          <div class="row">
+            <div class="offset-1 col-7">
+              <label class="custom-radio-container">
+                <input type="radio" class="view-type" checked="checked" name="view-type" value="desktop">
+                <span class="checkmark"></span>
+              </label>
+            </div>
+            <div class="col-4">
+              <label class="custom-radio-container">
+                <input type="radio" class="view-type" name="view-type" value="mobile">
+                <span class="checkmark"></span>
+              </label>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-sm-12">
+      <button class="btn center next-btn next-page change-page-btn">NEXT</button>
+    </div>
+  </div>
+
+  <div class="row text-center detail-screen responsiveless" style="display:none;">
+    <div class="desktop">
+      <div class="col-sm-12 header">
+        <div class="d-inline float-left">
+          <%= image_tag "logo.svg", class: "center logo-img goto-home" %> 
+        </div>
+        <div class="d-inline float-right type-description">
+          Desktop Application
+        </div>
+      </div>
+      <div class="col-sm-12">
+        <div class="float-right type-description-selector">
+          Modules  
+          <%= image_tag "dropdown.svg", class: "dropdown-img" %>
+        </div>        
+      </div>
+      <div class="col-sm-12 page-title">
+        Sign-up
+      </div>
+      <div class="col-sm-12 screen-flow-wrapper">
+        <div class="arr-wrapper prev-page change-page-btn">
+          <%=image_tag "back-arr.svg" %> Back
+        </div>
+        <div class="screen-wrapper">
+          <%= image_tag "desktop/desktop_sign_up.png", class: "page-img"%>
+          <%= image_tag "three_arrow.svg", class: "three-arrow-img"%>
+        </div>
+        <div class="arr-wrapper">
+          <div class="next-page change-page-btn">
+            Next <%=image_tag "next-arr.svg" %>
+          </div>
+          <div class="page-description">
+            Enter your university email address to sign-up
+          </div>      
+        </div>
+      </div>
+    </div>
+    <div class="mobile">
+      <div class="col-sm-12 header">
+        <div class="float-left">
+          <%= image_tag "logo.svg", class: "center logo-img goto-home" %> 
+        </div>
+        <div class="float-right type-description">
+          Mobile Application
+        </div>
+      </div>
+      <div class="col-sm-12">
+        <div class="float-right type-description-selector">
+          Modules  
+          <%= image_tag "dropdown.svg", class: "dropdown-img" %>
+        </div>                  
+      </div>
+      <div class="col-sm-12 page-title">
+        Sign-up
+      </div>
+      <div class="col-sm-12 screen-flow-wrapper">
+        <div class="row">
+          <div class="col-3 float-right arr-wrapper prev-page change-page-btn">
+            <%=image_tag "back-arr.svg" %> Back
+          </div>
+          <div class="col-6">
+            <div class="mobile-screen-wrapper">
+              <%= image_tag "desktop/desktop_sign_up.png", class: "page-img"%>
+              <%= image_tag "three_arrow.svg", class: "three-arrow-img"%>
+            </div>
+          </div>
+          <div class="col-3 float-left arr-wrapper">
+            <div class="next-page change-page-btn">
+              Next <%=image_tag "next-arr.svg" %>
+            </div>
+            <div class="page-description">
+              Enter your university email address to sign-up
+            </div>      
+          </div>
+        </div>
+      </div>      
+    </div>
+    <div class="desktop_exit exit">
+      <div class="col-sm-12 header">
+        <div class="d-inline float-left">
+          <%= image_tag "logo.svg", class: "center logo-img goto-home" %> 
+        </div>
+        <div class="d-inline float-right type-description">
+          Desktop Application
+        </div>
+      </div>
+      <div class="col-sm-12">
+        <div class="float-right type-description-selector">
+          Modules  
+          <%= image_tag "dropdown.svg", class: "dropdown-img" %>
+        </div>        
+      </div>
+      <div class="col-sm-12 screen-flow-wrapper">
+        <div class="arr-wrapper prev-page change-page-btn">
+          <%=image_tag "back-arr.svg" %> Back
+        </div>
+        <div class="screen-wrapper">
+          <div class="row">
+            <div class="col-12">
+              <div class="row">
+                <div class="col-6">
+                  <%= image_tag "app_store.svg", class: "" %>
+                </div>
+                <div class="col-6">
+                  <%= image_tag "google_play.svg", class: "" %>
+                </div>
+              </div>  
+            </div>
+            <div class="col-12 goto-selector">
+              <div class="row">
+                <div class="col-6 goto-mobile goto-selector-btn">
+                  Mobile
+                </div>
+                <div class="col-6 goto-desktop goto-selector-btn">
+                  Desktop
+                </div>            
+              </div>  
+            </div>
+            <div class="col-12 footer">
+              <div>For any questions or comments:</div>
+              <div>contact@interstride.com</div>
+              <div class="llc-desc">© 2018 Interstride LLC</div>
+            </div>
+          </div>
+        </div>
+        <div class="arr-wrapper">
+          <div class="next-page change-page-btn">
+            Next <%=image_tag "next-arr.svg" %>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="mobile_exit exit">
+      <div class="col-sm-12 header">
+        <div class="d-inline float-left">
+          <%= image_tag "logo.svg", class: "center logo-img goto-home" %> 
+        </div>
+        <div class="d-inline float-right type-description">
+          Desktop Application
+        </div>
+      </div>
+      <div class="col-sm-12">
+        <div class="float-right type-description-selector">
+          Modules  
+          <%= image_tag "dropdown.svg", class: "dropdown-img" %>
+        </div>        
+      </div>
+      <div class="col-sm-12 screen-flow-wrapper">
+        <div class="row">
+          <div class="col-3 float-right arr-wrapper prev-page change-page-btn">
+            <%=image_tag "back-arr.svg" %> Back
+          </div>
+          <div class="col-sm-6 screen-wrapper">
+            <div class="row">
+              <div class="col-12">
+                <div class="row">
+                  <div class="col-6">
+                    <%= image_tag "app_store.svg", class: "" %>
+                  </div>
+                  <div class="col-6">
+                    <%= image_tag "google_play.svg", class: "" %>
+                  </div>
+                </div>  
+              </div>
+              <div class="col-12 goto-selector">
+                <div class="row">
+                  <div class="col-6 goto-mobile goto-selector-btn">
+                    Mobile
+                  </div>
+                  <div class="col-6 goto-desktop goto-selector-btn">
+                    Desktop
+                  </div>            
+                </div>  
+              </div>
+              <div class="col-12 footer">
+                <div>For any questions or comments:</div>
+                <div>contact@interstride.com</div>
+                <div class="llc-desc">© 2018 Interstride LLC</div>
+              </div>
+            </div>
+          </div>
+          <div class="col-3 float-right arr-wrapper next-page change-page-btn">
+            Next <%=image_tag "next-arr.svg" %>
+          </div>
+        </div>
+      </div>
+    </div>    
+  </div>
+  <div class="row text-center detail-screen responsiveness" style="display:none;">
+    <div class="desktop">
+      <div class="col-sm-12 header">
+        <div class="d-inline float-left">
+          <%= image_tag "logo.svg", class: "center logo-img goto-home" %> 
+        </div>
+        <div class="d-inline float-right type-description">
+          Desktop Application
+        </div>
+      </div>
+      <div class="col-sm-12">
+        <div class="float-right type-description-selector">
+          Modules  
+          <i class="fa fa-angle-down"></i>
+        </div>
+      </div>
+      <div class="col-sm-12">
+        <div class="mobile-page-description">
+          Enter your university email address to sign-up
+        </div>
+      </div>      
+
+      <div class="col-sm-12 screen-flow-wrapper">
+        <div class="float-left arr-wrapper prev-page change-page-btn">
+          <%=image_tag "back-arr.svg" %>
+        </div>
+        <div class="float-right arr-wrapper next-page change-page-btn">
+          <%=image_tag "next-arr.svg" %>
+        </div>
+      </div>
+      <div class="col-sm-12">
+        <div class="screen-wrapper">
+          <%= image_tag "desktop/desktop_sign_up.png", class: "page-img"%>
+          <%= image_tag "three_arrow.svg", class: "three-arrow-img"%>
+        </div>
+      </div>
+    </div>
+
+    <div class="mobile">
+      <div class="col-sm-12 header">
+        <div class="d-inline float-left">
+          <%= image_tag "logo.svg", class: "center logo-img goto-home" %> 
+        </div>
+        <div class="d-inline float-right type-description">
+          Mobile Application
+        </div>
+      </div>
+      <div class="col-sm-12">
+        <div class="float-right type-description-selector">
+          Modules  
+          <i class="fa fa-angle-down"></i>
+        </div>
+      </div>
+      <div class="col-sm-12">
+        <div class="mobile-page-description">
+          Enter your university email address to sign-up
+        </div>
+      </div>      
+
+      <div class="col-sm-12 screen-flow-wrapper">
+        <div class="arr-wrapper prev-page change-page-btn">
+          <%=image_tag "back-arr.svg" %>
+        </div>
+        <div class="screen-wrapper">
+          <div class="mobile-screen-wrapper">
+            <%= image_tag "desktop/desktop_sign_up.png", class: "page-img"%>
+            <%= image_tag "three_arrow.svg", class: "three-arrow-img"%>
+          </div>
+        </div>
+        <div class="arr-wrapper next-page change-page-btn">
+          <%=image_tag "next-arr.svg" %>
+        </div>
+      </div>     
+    </div>    
+  </div>
+
+
+</div>

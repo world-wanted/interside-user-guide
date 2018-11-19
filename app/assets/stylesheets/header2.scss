@@ -1,0 +1,348 @@
+body {
+  overflow-x: hidden;
+}
+.user-guide {
+  color: #707070;
+
+  .row {
+    min-height: 30px;
+  }
+
+  .col-sm-12 {
+    min-height: 40px;
+  }
+
+  .change-page-btn {
+    cursor: pointer;
+  }
+
+  .home-screen {
+    .logo-img {
+      margin-top: 8.9vh;
+      width:26vw;
+    }
+
+    .title {
+      margin-top: 6.46vh;
+      font-size: 2.9em;
+    }
+
+    .type-selector {
+      margin-top: 5.74vh;
+
+      .desktop-tablet-img {
+        width: 21.197vw;
+      }
+
+      .mobile-img {
+        width: 5vw; 
+      }
+
+      .type-description {
+        margin-top: 1.48vh;
+        font-size: 1.82vw;
+      }
+    }
+
+    .next-btn {
+      margin-top: 10.46vh;
+      background-color: #f95a5f;
+      color: #fff;
+      width: 10.93vw;
+      height: 6.3vh;
+    }
+  }
+
+  .detail-screen.responsiveless {
+    color: #767676;
+
+    .screen-flow-wrapper {
+      padding: 10.18vh 13.6vw 0;
+      display: table;
+
+      .arr-wrapper {
+        font-size: 1.77vw;
+        position: relative;
+        display: table-cell;
+        vertical-align: middle;
+
+        img {
+          width: 4.6vw;
+        }
+      }
+      .screen-wrapper {
+        position: relative;
+  
+        .page-img{
+          width: 55vw;
+          display: table-cell;
+          vertical-align: middle;
+          margin: 0 auto;
+        }
+
+        .three-arrow-img {
+          position: absolute;
+          width: 8.48vw;
+        }
+      }
+
+      .page-description {
+        position: absolute;
+        top: 0;
+        left: -4vw;
+        width: 17.44vw;
+        padding: 15px;
+        font-size: 23px;
+        text-align: left;
+        color: #2cb1a6;
+        border: 1px solid #767676;
+        border-radius: 23px;
+      }          
+    }
+
+
+    .mobile {
+      .screen-flow-wrapper {
+        padding: 5vh 23.22vw 0;
+
+        .page-description {
+          left: -3.5vw;
+        }
+
+        .mobile-screen-wrapper {
+          margin:0 auto;
+          width: 19.21vw;
+          position: relative;
+
+          .page-img {
+            width: 19.21vw;
+          }          
+        }
+      }
+    }
+
+    .header {
+      margin-top: 4.15vh;
+
+      .logo-img {
+        width: 13.12vw;
+        margin-left: 21.45vw;
+      }
+
+      .type-description {
+        font-size: 1.77vw;  
+        margin-right: 21.45vw;
+      }
+    }
+
+    .dropdown-img {
+      width: 0.67vw;
+    }
+
+    .type-description-selector {
+      width: 6vw;
+      border-bottom: 1px solid #767676;
+      margin-right: 21.45vw;
+
+    }
+
+    .page-title {
+      font-size: 3.9vw;
+      color: #484848;
+    }
+  }
+  .detail-screen.responsiveness {
+    .header {
+      margin-top: 16px;
+
+      .logo-img {
+        margin-left: 5.86vw;
+        width: 28.8vw;
+      }
+
+      .type-description {
+        margin-right: 5.86vw; 
+        font-size: 20px;
+      }
+    }
+
+    .type-description-selector {
+      font-size: 16px;
+      margin-right: 5.86vw;
+      border-bottom: 1px solid #767676;
+
+      .dropdown-img {
+        width: 3.45vw;
+      }
+
+    }
+
+    .mobile-page-description {
+      padding: 15px;
+      font-size: 23px;
+      text-align: left;    
+      width: 64.53vw;
+      margin: 75px auto 0;
+      border: 1px solid #767676;
+      border-radius: 23px;      
+      color: #2cb1a6;
+      min-height: 150px;
+    }
+
+    .screen-flow-wrapper {
+      min-height: 70px;
+
+      .arr-wrapper {
+        img {
+          width: 35px;
+        }
+
+        &.prev-page {
+          padding-left: 4.8vw;
+        }
+        &.next-page {
+          padding-right: 4.8vw;
+        }
+      }
+    }
+
+    .screen-wrapper {
+      position: relative;
+      margin-top: 20px;    
+    }
+    .desktop {
+      .screen-wrapper {
+        img {
+          width: 96.5vw;    
+        }
+
+        .three-arrow-img {
+          position: absolute;
+          width: 8.48vw;
+        }      
+      }
+    }
+
+    .mobile {
+      .mobile-page-description {
+        padding: 15px;
+        font-size: 23px;
+        text-align: left;    
+        width: 64.53vw;
+        margin: 20px auto 0;
+        border: 1px solid #767676;
+        border-radius: 23px;      
+        color: #2cb1a6;
+        min-height: 150px;
+      }    
+
+      .screen-flow-wrapper {
+        display: table; 
+
+        .arr-wrapper {
+          display: table-cell;
+          vertical-align: middle;
+
+          img {
+            width: 35px;
+          }
+
+          &.prev-page {
+            padding-left: 4.8vw;
+          }
+          &.next-page {
+            padding-right: 4.8vw;
+          }
+        }
+
+        .page-img {
+          width: 61.86vw;    
+          max-width: 270px;     
+          display: table-cell;
+          vertical-align: middle;
+          margin: 0 auto;
+        }
+
+        .three-arrow-img {
+          position: absolute;
+          width: 100px;
+        }           
+      }
+    }
+  }
+
+  @media (max-width: 767px) {
+    .responsiveless {
+      display: none;
+    }
+    .responsiveness {
+      display: block;
+    }
+  }
+  @media (min-width: 768px) {
+    .responsiveless {
+      display: block;
+    }
+    .responsiveness {
+      display: none;
+    }    
+  }
+}
+
+
+.custom-radio-container {
+    display: block;
+    width: 100%;
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size: 22px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.custom-radio-container input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+}
+
+.checkmark {
+    position: absolute;
+    top: 0;
+    left: calc(50% - 1.3vw);
+    height: 2.6vw;
+    width: 2.6vw;
+    background-color: #eee;
+    border-radius: 50%;
+}
+
+.custom-radio-container:hover input ~ .checkmark {
+    background-color: #ccc;
+}
+
+.custom-radio-container input:checked ~ .checkmark {
+    background-color: #f95a5f;
+}
+
+.checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+.custom-radio-container input:checked ~ .checkmark:after {
+    display: block;
+}
+
+.custom-radio-container .checkmark:after {
+  top: 0.9vw;
+  left: 0.9vw;
+  width: 0.8vw;
+  height: 0.8vw;
+  border-radius: 50%;
+  background: white;
+}
